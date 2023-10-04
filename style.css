@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F0F0;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+div {
+    margin: 1.5rem auto;
+    width: 300px;
+}
+
+input {
+    width: 300px;
+    margin: 0.5rem auto;
+}
+
+#submit {
+    background-color: black;
+    color: #F0F0F0;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    width: 150px;
+}
+
+.msg {
+    display: none;
+}
+
+.success {
+    color: green;
+    background-color: lightgreen;
+}
+
+.error {
+    color: darkred;
+    background-color: lightcoral;
+}
