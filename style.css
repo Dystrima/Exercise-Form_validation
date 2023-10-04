@@ -11,7 +11,14 @@ img  {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F0F0F0;
+    /* background: rgb(221, 45, 74);
+    background: linear-gradient(256deg, rgba(221, 45, 74, 1) 0%, rgba(136, 13, 30, 1) 100%);; */
+    background: rgb(135, 14, 14);
+    background: linear-gradient(303deg, rgba(135, 14, 14, 1) 0%, rgba(242, 106, 141, 1) 50%, rgba(203, 238, 243, 1) 100%);
+}
+
+main {
+    height: 100vh;
 }
 
 form {
@@ -30,12 +37,15 @@ input {
 }
 
 #submit {
-    background-color: black;
-    color: #F0F0F0;
+    /* background-color: black;
+    color: #F0F0F0; */
+    background-color: #870E0E;
+    color: #CBEEF3;
     padding: 1rem 2rem;
     font-size: 1rem;
     border-radius: 1rem;
     width: 150px;
+    border: none;
 }
 
 .msg {
@@ -50,4 +60,8 @@ input {
 .error {
     color: darkred;
     background-color: lightcoral;
+}
+
+.container {
+    width: 500px;
 }

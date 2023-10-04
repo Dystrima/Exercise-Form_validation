@@ -7,33 +7,36 @@
     <title>Form validation</title>
 </head>
 <body>
-    <form method="GET">
-        <div class="username">
-            <label for="username">Username: </label><br>
-            <input type="text" id="username" placeholder="Username"><br>
-            <p class="msg"></p>
+    <main>
+        <form method="GET">
+            <div class="username">
+                <label for="username">Username: </label><br>
+                <input type="text" id="username" placeholder="Username"><br>
+                <p class="msg"></p>
+            </div>
+            <div class="email">
+                <label for="email">Email: </label><br>
+                <input type="email" id="email" placeholder="Email"><br>
+                <p class="msg"></p>
+            </div>
+            <div class="password">
+                <label for="password">Password: </label><br>
+                <input type="password" id="password" placeholder="Password"><br>
+                <p class="msg"></p>
+            </div>
+            <div class="passwordConfirm">
+                <label for="passwordConfirm">Confirm your password: </label><br>
+                <input type="password" id="passwordConfirm" placeholder="Type your password again"><br>
+                <p class="msg"></p>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+        
+        <div class="container">
+            <img src="https://placekitten.com/500/300" alt="kitten">
         </div>
-        <div class="email">
-            <label for="email">Email: </label><br>
-            <input type="email" id="email" placeholder="Email"><br>
-            <p class="msg"></p>
-        </div>
-        <div class="password">
-            <label for="password">Password: </label><br>
-            <input type="password" id="password" placeholder="Password"><br>
-            <p class="msg"></p>
-        </div>
-        <div class="passwordConfirm">
-            <label for="passwordConfirm">Confirm your password: </label><br>
-            <input type="password" id="passwordConfirm" placeholder="Type your password again"><br>
-            <p class="msg"></p>
-        </div>
-        <input type="submit" value="Submit" id="submit">
-    </form>
-
-    <div class="container">
-        <img src="https://placekitten.com/500/300" alt="kitten">
-    </div>
+    </main>
+    
     <script src="app.js"></script>
 </body>
 </html>
