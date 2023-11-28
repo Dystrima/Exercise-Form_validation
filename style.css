@@ -13,8 +13,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /* background: rgb(221, 45, 74);
     background: linear-gradient(256deg, rgba(221, 45, 74, 1) 0%, rgba(136, 13, 30, 1) 100%);; */
-    background: rgb(135, 14, 14);
-    background: linear-gradient(303deg, rgba(135, 14, 14, 1) 0%, rgba(242, 106, 141, 1) 50%, rgba(203, 238, 243, 1) 100%);
+    background: #7B9E89;
+    background: linear-gradient(303deg, #7B9E89 0%, #BBB5BD 50%, #F18805 100%);
 }
 
 main {
@@ -34,13 +34,14 @@ div {
 input {
     width: 300px;
     margin: 0.5rem auto;
+    padding: 5px;
 }
 
 #submit {
     /* background-color: black;
     color: #F0F0F0; */
-    background-color: #870E0E;
-    color: #CBEEF3;
+    background-color: #D95D39;
+    color: #0E1428;
     padding: 1rem 2rem;
     font-size: 1rem;
     border-radius: 1rem;
